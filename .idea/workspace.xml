@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e030a9d-503c-4048-af85-b606902e1dc5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/basics/assomptotic_notations/runtime_complecity.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/main.go" afterDir="false" />
+    <list default="true" id="1e030a9d-503c-4048-af85-b606902e1dc5" name="Changes" comment="problem_set">
+      <change beforePath="$PROJECT_DIR$/problems/easy/array/two_sums.go" beforeDir="false" afterPath="$PROJECT_DIR$/problems/easy/array/two_sums.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +100,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="problem_set" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem_set" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

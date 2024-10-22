@@ -2,14 +2,15 @@ package main
 
 import (
 	"fmt"
-	"reflection/basics/assomptotic_notations"
+	"reflection/problems/easy/array"
 )
 
 func main() {
+	arr := array.NewArrayProblems()
 
-	runc := assomptotic_notations.New()
+	two_sums := arr.TwoSum([]int{2, 7, 11, 15}, 9)
 
-	runc.HowLong(countdown, true, 10)
+	fmt.Printf("final answer is %v\n", two_sums)
 }
 
 func countdown(n int) {

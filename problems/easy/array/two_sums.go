@@ -95,11 +95,11 @@ func (p *ArrayProblems) TwoSum(nums []int, target int) []int {
 
 	answer := make([]int, 0)
 	for i := 0; i < array_len; i++ {
-		current_index := i
+		//current_index := i
 		current_answer := RecursiveSum(nums[i:], 0, i+1, target, make([]int, 0))
 
 		if len(current_answer) > 0 {
-			answer = []int{current_index, current_answer[1]}
+			answer = current_answer
 			break
 		}
 	}
@@ -117,11 +117,13 @@ func RecursiveSum(items []int, current_index, next_index, expected_value int, in
 	sum_item := first + next_item
 
 	if sum_item == expected_value {
-		return []int{0, next_index}
+		current_index += 1
+		next_index += 1
+		return []int{current_index, next_index}
 	}
 
 	latest_items := shift(items)
-	return RecursiveSum(latest_items, current_index, next_index+1, expected_value, index)
+	return RecursiveSum(latest_items, current_index, next_index, expected_value, index)
 }
 
 func shift(items []int) []int {

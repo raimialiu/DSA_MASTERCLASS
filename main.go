@@ -8,7 +8,7 @@ import (
 func main() {
 	arr := array.NewArrayProblems()
 
-	two_sums := arr.TwoSum([]int{2, 7, 11, 15}, 9)
+	two_sums := arr.TwoSum([]int{3, 2, 4}, 6)
 
 	fmt.Printf("final answer is %v\n", two_sums)
 }
